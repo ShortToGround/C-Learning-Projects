@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 
-
-int c = 0;
-
 int main(void){
 
+	int c = 0;
+	
 	while ((c = getchar()) != EOF){
 		if (c == '\b'){
 			printf("BACKSPACE!\n");
