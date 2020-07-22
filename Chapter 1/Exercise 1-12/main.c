@@ -3,10 +3,9 @@
 #define IN		1
 #define OUT		0
 
-
-int word, c = 0;
-
 int main(void){
+
+	int word, c = 0;
 	
 	while ((c = getchar()) != EOF){
 		// If c isn't a space, then it has to be a non-space character
