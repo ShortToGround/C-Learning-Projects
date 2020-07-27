@@ -24,7 +24,7 @@ int main(void){
 					blankArray(line);
 				}
 			
-			i = 0;	
+				i = 0;	
 				
 			}
 		}
