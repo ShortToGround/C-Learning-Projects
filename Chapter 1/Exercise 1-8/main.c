@@ -2,11 +2,13 @@
 
 // Counts the number of spaces, tabs, and newlines then prints them at the end.
 
-int last, c;
-int spaces = 0, tabs = 0, newlines = 0;
 
 int main(void){
 	
+	
+	int last, c;
+	int spaces = 0, tabs = 0, newlines = 0;
+
 	while ((c = getchar()) != EOF){
 		
 		// Used to keep track of the character entered before "EOF"
