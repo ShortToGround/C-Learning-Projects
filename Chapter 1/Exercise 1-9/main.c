@@ -2,9 +2,9 @@
 
 // Copies input to output, but replaces multiple spaces with a single space
 
-int c, x = 0;
-
 int main(void){
+		
+	int c, x = 0;
 	
 	while ((c = getchar()) != EOF){
 		// If the current char is a space
