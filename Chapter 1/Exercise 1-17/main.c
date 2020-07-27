@@ -18,12 +18,8 @@ int main(void){
 			if (c == '\n'){
 				if (i > 80){
 					printf("\n%s\n\n", line);
-					blankArray(line);
 				}
-				else{
-					blankArray(line);
-				}
-			
+				blankArray(line);
 				i = 0;	
 				
 			}
