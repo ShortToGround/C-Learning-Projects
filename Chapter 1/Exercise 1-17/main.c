@@ -19,12 +19,13 @@ int main(void){
 				if (i > 80){
 					printf("\n%s\n\n", line);
 					blankArray(line);
-					i = 0;
 				}
 				else{
 					blankArray(line);
-					i = 0;
 				}
+			
+			i = 0;	
+				
 			}
 		}
 	}
