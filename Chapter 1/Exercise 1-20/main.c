@@ -17,7 +17,7 @@ int main(void){
 		else if (c == '\t'){
 			// the column counter "i" only counts in blocks of 8, so all we have to do is 
 			//	 see how many spaces we are shy of to the next block
-			spacesNeeded = (TAB_LENGTH - i);
+			spacesNeeded = (TAB_LENGTH - i);			
 			for (i = 0; i != spacesNeeded; i++){
 				putchar(' ');
 			}
@@ -26,8 +26,8 @@ int main(void){
 		}
 		else{
 			putchar(c);
-			// have to offset the column counter by 1 due to the variable starting at 0
-			if (i < TAB_LENGTH - 1){
+			// if i is 7, then the next increment should set it back to 0 to restart the column count
+			if (i != TAB_LENGTH - 1){
 				++i;	
 			}
 			else{
@@ -37,6 +37,3 @@ int main(void){
 	}
 	return 0;
 }
-
-
-
