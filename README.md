@@ -5,4 +5,4 @@ As I work through K&amp;R I'm going to post my exercise solutions here. This wil
 I am also attempting to solve each exercise given the information I "should know". For instance, if I haven't encountered arrays in the book yet, then I won't make use of them on an exercise.
 
 
-I compile all of my programs with gcc using -Wall in order to force myself to learn best practices.
+I compile all of my programs on Manjaro Linux with gcc using -Wall in order to force myself to learn best practices.
