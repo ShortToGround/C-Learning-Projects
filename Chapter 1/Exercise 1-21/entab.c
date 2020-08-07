@@ -5,7 +5,7 @@
 
 int main(void){
 	
-	int c;							// Holds the current character
+	int c;						// Holds the current character
 	int columnpos = 1; 				// Cycles though the current position of the char relative to the tab block - Starts on col 1
 	int spaces = 0;					// Keeps track of the number of spaces entered in a row
 	int tabsOut;					// Number of tabs that will be output
@@ -28,7 +28,7 @@ int main(void){
 		}
 		else{
 			if (spaces > 0){
-				// If the spaces are enough to get to the next tab block, just print them all
+				// If the spaces aren't enough to get to the next tab block, just print them all
 				if (((spaceStart - 1) + spaces) < nextBlock){
 					for (; spaces > 0; --spaces){
 						putchar(' ');	
